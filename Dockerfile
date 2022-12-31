@@ -1,4 +1,4 @@
-FROM debian:stretch-slim
+FROM --platform=linux/arm64 debian:stretch-slim
 
 # Useful networking things
 RUN apt-get update && \
